@@ -1,0 +1,30 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "nodemon server.js",
+    "start:file": "nodemon file.js",
+    "start:console": "nodemon console.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaraTsvetanova/node-homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaraTsvetanova/node-homework/issues"
+  },
+  "homepage": "https://github.com/DaraTsvetanova/node-homework#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^14.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
