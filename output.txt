@@ -1,0 +1,1 @@
+[{"date":"2022-01-24 20:50","location":"Sofia","currentWeather":-12},{"date":"2022-01-24 18:50","location":"London","currentWeather":4},{"date":"2022-01-24 13:50","location":"Washington","currentWeather":3.9},{"date":"2022-01-25 5:50","location":"Sydney","currentWeather":22}]
