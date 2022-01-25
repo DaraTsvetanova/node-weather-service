@@ -15,12 +15,13 @@ npm run start:server
 
 ## Config setup:
 
-Go to .env and add a city or cities
+Copy the env.example file and create your own .env file with your API KEY for the WeatherAPI and a city or cities of your choice
 
 Example:
 
 ```
-CITIES = Sofia, London, Washington, Sydney;
+API_KEY=yourkey;
+CITIES=Sofia,London,Washington,Sydney;
 ```
 
 ## How to run
