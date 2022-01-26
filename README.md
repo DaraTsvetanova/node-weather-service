@@ -13,7 +13,7 @@ npm install
 npm run start:server
 ```
 
-## Config setup:
+## Configouration:
 
 Copy the env.example file and create your own .env file with your API KEY for the WeatherAPI and a city or cities of your choice
 
@@ -24,7 +24,7 @@ API_KEY=yourkey;
 CITIES=Sofia,London,Washington,Sydney;
 ```
 
-## How to run
+## Starting the application
 
 - For logging weather data to the console run:
 
