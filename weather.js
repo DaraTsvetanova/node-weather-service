@@ -1,5 +1,14 @@
 const URL = "http://api.weatherapi.com/v1/current.json";
 const axios = require("axios");
+const nodemailer = require("nodemailer");
+
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "youremail@gmail.com",
+    pass: "yourpassword",
+  },
+});
 
 const createWeatherService = (apiKey) => {
   const endpoint = `${URL}?key=${apiKey}`;
@@ -14,8 +23,12 @@ const createWeatherService = (apiKey) => {
           currentWeather: response.data.current.temp_c,
         };
       } catch (err) {
-        console.log(err.message);
-        console.error("Something went wrong");
+        const message = "Location not found";
+
+        return {
+          error: message,
+          location: city,
+        };
       }
     },
   };

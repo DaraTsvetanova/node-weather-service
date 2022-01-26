@@ -1,1 +1,1 @@
-[{"date":"2022-01-25 9:26","location":"Sofia","currentWeather":-16},{"date":"2022-01-25 7:26","location":"London","currentWeather":2},{"date":"2022-01-25 2:26","location":"Washington","currentWeather":1.1},{"date":"2022-01-25 18:26","location":"Sydney","currentWeather":24}]
+[{"date":"2022-01-26 10:55","location":"Moscow","currentWeather":-5},{"error":"Location not found","location":"korlik"},{"date":"2022-01-26 9:55","location":"Sofia","currentWeather":-7}]
