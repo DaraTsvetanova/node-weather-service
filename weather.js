@@ -1,14 +1,5 @@
 const URL = "http://api.weatherapi.com/v1/current.json";
 const axios = require("axios");
-const nodemailer = require("nodemailer");
-
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  auth: {
-    user: "youremail@gmail.com",
-    pass: "yourpassword",
-  },
-});
 
 const createWeatherService = (apiKey) => {
   const endpoint = `${URL}?key=${apiKey}`;

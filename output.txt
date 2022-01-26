@@ -1,1 +1,1 @@
-[{"date":"2022-01-26 10:55","location":"Moscow","currentWeather":-5},{"error":"Location not found","location":"korlik"},{"date":"2022-01-26 9:55","location":"Sofia","currentWeather":-7}]
+[{"date":"2022-01-26 11:28","location":"Moscow","currentWeather":-5},{"error":"Location not found","location":"korlik"},{"date":"2022-01-26 10:28","location":"Sofia","currentWeather":-6}]
